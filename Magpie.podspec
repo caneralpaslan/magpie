@@ -20,20 +20,20 @@ Pod::Spec.new do |s|
   s.default_subspec       = 'Core'
 
   s.subspec 'Alamofire' do |ss|
-    ss.source_files = 'Magpie/Classes/Alamofire/*.swift'
+    ss.source_files = 'Sources/magpie/Classes/Alamofire/*.swift'
 
     ss.dependency 'Magpie/Core'
     ss.dependency 'Alamofire', '~> 5.2'
   end
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'Magpie/Classes/Core/**/*.swift'
+    ss.source_files = 'Sources/magpie/Classes/Core/**/*.swift'
 
     ss.dependency 'Magpie/HIPUtils'
   end
 
   s.subspec 'HIPCore' do |ss|
-    ss.source_files = 'Magpie/Classes/HIPCore/**/*.swift'
+    ss.source_files = 'Sources/magpie/Classes/HIPCore/**/*.swift'
 
     ss.dependency 'Magpie/Alamofire'
     ss.dependency 'Magpie/HIPExceptions'
@@ -41,12 +41,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HIPExceptions' do |ss|
-    ss.source_files = 'Magpie/Classes/HIPExceptions/*.swift'
+    ss.source_files = 'Sources/magpie/Classes/HIPExceptions/*.swift'
 
     ss.dependency 'Magpie/HIPUtils'
   end
 
   s.subspec 'HIPUtils' do |ss|
-    ss.source_files = 'Magpie/Classes/HIPUtils/**/*.swift'
+    ss.source_files = 'Sources/magpie/Classes/HIPUtils/**/*.swift'
   end
 end

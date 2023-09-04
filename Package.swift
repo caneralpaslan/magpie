@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "Magpie", targets: ["Magpie"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.4")),
-        .package(url: "https://github.com/Square/Valet.git", .upToNextMajor(from: "4.0.0"))
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.4.4")),
+        .package(url: "https://github.com/Square/Valet.git", .exact("4.0.0"))
     ],
     targets: [
         .target(name: "Magpie", dependencies: ["Alamofire", "Valet"], path: "Sources/magpie/Classes")

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Alamofire/Alamofire.git",
       "state" : {
-        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
-        "version" : "5.8.0"
+        "revision" : "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+        "version" : "5.4.4"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Square/Valet.git",
       "state" : {
-        "revision" : "89f12b93553055f4908c0d2548c9b8655926940a",
-        "version" : "4.2.0"
+        "revision" : "dfcf1fd14216fb7454c9cb067a9288f21252e19e",
+        "version" : "4.0.0"
       }
     }
   ],
